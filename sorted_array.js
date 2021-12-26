@@ -10,3 +10,5 @@ mergeTwoLists = function (list1, list2) {
   return list1.concat(list2).sort((a, b) => a - b);
 };
 mergeTwoLists([1, 2, 3], [3, 33, 44, 2]);
+
+// test
