@@ -11,5 +11,9 @@ mergeTwoLists = function (list1, list2) {
 };
 mergeTwoLists([1, 2, 3], [3, 33, 44, 2]);
 
+<<<<<<< HEAD
 // test other rep
 // git test with similar E
+=======
+// testing
+>>>>>>> 4051561f1840031308034c2512212fc5a9ca1323
