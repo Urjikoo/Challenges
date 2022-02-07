@@ -167,23 +167,19 @@ function ex5() {
       oldContainer.push(value);
     }
   }
-​
+//another
   var shelf = {};
-​
+
   insert(shelf, 'H', 'Hobbit, The');
-​
+
   console.log(shelf);
-​
+
   insert(shelf, 'H', 'Handmaide\'s Tail, The');
-​
   console.log(shelf);
-​
   shelf['H'] = 'Hugo';
-​
   console.log(shelf);
 }
 //ex5();
-​
 function ex6() {
   // Above, we wrote
   if (!(key in dictionary)) {
