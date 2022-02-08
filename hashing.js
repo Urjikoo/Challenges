@@ -179,19 +179,19 @@ function ex5() {
   shelf['H'] = 'Hugo';
   console.log(shelf);
 }
-//ex5();
+//example5();
 function ex6() {
   // Above, we wrote
   if (!(key in dictionary)) {
   }
-​
+
   // The condition part could be written in other ways, though. Here it is all
   // on its own, outside of the "if" statement:
   !(key in dictionary);
-​
+
   // That's the same as
   key in dictionary === false;
-​
+
   // You could also write this:
   dictionary[key] === undefined;
   // ...although this third version is subtly different. The reason is too
