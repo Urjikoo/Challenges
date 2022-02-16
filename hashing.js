@@ -95,19 +95,19 @@ function ex3() {
     // This isn't quite right...
     dictionary[key] = value;
   }
-​
+
   var shelf = {};
-​
+
   insert(shelf, 'H', 'Hobbit, The');
-​
+
   console.log(shelf);
-​
+
   insert(shelf, 'H', 'Handmaide\'s Tail, The');
-​
+
   console.log(shelf);
 }
 //ex3();
-​
+
 function ex4() {
   /**
    * Given a dictionary (in this case, a "plain old JavaScript Object" value,
@@ -120,20 +120,20 @@ function ex4() {
     var container = [];
     dictionary[key] = container;
     container.push(value);
-​
+
     // We could also write the above 3 statements using the two statements below
     //dictionary[key] = [];
     //dictionary[key].push(value);
-​
+
     // But either way, it's still not quite right.
   }
-​
+
   var shelf = {};
-​
+
   insert(shelf, 'H', 'Hobbit, The');
-​
+
   console.log(shelf);
-​
+
   insert(shelf, 'H', 'Handmaide\'s Tail, The');
 ​
   console.log(shelf);
