@@ -18,7 +18,8 @@ paths = [
   "root 4.txt(efgh)",
 ];
 //returning the files that has duplicate content.
-//first loop through the paths and separate(split it by the gap)=>that will create an array and then loop throuhgh the new array and extract the root and content.then create a map and grab the content and path to group the duplicate files(file holders)
+//first loop through the paths and separate(split it by the gap)=>that will create an array and then loop throuhgh the new array and extract the root and content.then create a map and grab the content and path to group the duplicate files(file holders).
+//new
 
 function duplicateArr(paths) {
   let fileMap = new Map(); //creating a map
